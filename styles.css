@@ -1,0 +1,13 @@
+#grid {
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .tile {
+       width: 100px;
+       height: 100px;
+       background-color: white;
+       transition: background-color 1s;
+   }
+   .tile.black {
+       background-color: black;
+   }
