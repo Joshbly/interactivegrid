@@ -1,13 +1,17 @@
 #grid {
-       display: flex;
-       flex-wrap: wrap;
-   }
-   .tile {
-       width: 100px;
-       height: 100px;
-       background-color: white;
-       transition: background-color 1s;
-   }
-   .tile.black {
-       background-color: black;
-   }
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+
+.tile {
+    width: 10%; /* Adjust this to change the number of tiles per row */
+    height: 10vh; /* Adjust this to change the number of tiles per column */
+    background-color: white;
+    transition: background-color 1s;
+}
+
+.tile.black {
+    background-color: black;
+}
